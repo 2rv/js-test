@@ -5,11 +5,12 @@
   "scripts": {
     "client": "nodemon -e js,hbs,json,css ./index.js",
     "client:build": "node ./index.js",
-    "watch": "webpack --watch",
-    "sass:build": "sass sсss:public/dist/css",
+    "webpack:watch": "webpack --watch",
+    "webpack:build": "webpack --config webpack.config.js",
+    "sass:build": "sass src:public/dist/css",
     "sass:watch": "sass --watch src:public/dist/css",
-    "start": "run-p client:build sass:build webpack",
-    "dev": "run-p sass:watch client watch"
+    "start": "run-p webpack:build client:build sass:build",
+    "dev": "run-p sass:watch client webpack:watch"
   },
   "dependencies": {
     "@babel/core": "^7.21.0",
