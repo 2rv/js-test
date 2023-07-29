@@ -9,7 +9,7 @@
     "webpack:build": "webpack --config webpack.config.js",
     "sass:build": "sass src:public/dist/css",
     "sass:watch": "sass --watch src:public/dist/css",
-    "start": "run-p webpack:build client:build sass:build",
+    "start": "run-p webpack:build sass:build client:build",
     "dev": "run-p sass:watch client webpack:watch"
   },
   "dependencies": {

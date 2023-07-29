@@ -16,17 +16,17 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../test */ \"./src/test.js\");\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_test__WEBPACK_IMPORTED_MODULE_0__);\nalert(2000);\n\nalert(3000);\n\n//# sourceURL=webpack://sass/./src/container/index/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _script_test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../script/test */ \"./src/script/test.js\");\n/* harmony import */ var _script_test__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_script_test__WEBPACK_IMPORTED_MODULE_0__);\nalert(2000);\n\nalert(3000);\n\n//# sourceURL=webpack://sass/./src/container/index/index.js?");
 
 /***/ }),
 
-/***/ "./src/test.js":
-/*!*********************!*\
-  !*** ./src/test.js ***!
-  \*********************/
+/***/ "./src/script/test.js":
+/*!****************************!*\
+  !*** ./src/script/test.js ***!
+  \****************************/
 /***/ (() => {
 
-eval("alert('test');\n\n//# sourceURL=webpack://sass/./src/test.js?");
+eval("alert('test');\n\n//# sourceURL=webpack://sass/./src/script/test.js?");
 
 /***/ })
 

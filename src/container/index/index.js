@@ -1,3 +1,3 @@
 alert(2000)
-import '../../test'
+import '../../script/test'
 alert(3000)
